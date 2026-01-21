@@ -1,0 +1,143 @@
+.vacation-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vacation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.vacation-image-container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.vacation-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.vacation-card:hover .vacation-image {
+    transform: scale(1.05);
+}
+
+.follow-btn {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #666;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.follow-btn:hover {
+    background: white;
+    transform: scale(1.05);
+}
+
+.follow-btn.following {
+    background: #ffe4e8;
+    color: #e91e63;
+}
+
+.heart-icon {
+    font-size: 1rem;
+}
+
+.admin-actions {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+.edit-btn, .delete-btn {
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-btn {
+    color: #00bcd4;
+}
+
+.edit-btn:hover {
+    background: #00bcd4;
+    color: white;
+}
+
+.delete-btn {
+    color: #f44336;
+}
+
+.delete-btn:hover {
+    background: #f44336;
+    color: white;
+}
+
+.vacation-content {
+    padding: 20px;
+}
+
+.vacation-destination {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+.vacation-dates {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+
+.date-icon {
+    font-size: 1rem;
+}
+
+.vacation-description {
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    min-height: 85px;
+    text-align: justify;
+}
+
+.vacation-price {
+    background: linear-gradient(135deg, #00bcd4 0%, #0097a7 100%);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: auto;
+}
