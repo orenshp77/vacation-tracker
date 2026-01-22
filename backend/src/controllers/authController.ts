@@ -55,7 +55,7 @@ export const register = async (req: Request, res: Response): Promise<void> => {
         const token = jwt.sign(
             { id: userId, email: trimmedEmail, role: 'user' },
             process.env.JWT_SECRET || 'secret',
-            { expiresIn: process.env.JWT_EXPIRES_IN || '1d' }
+            { expiresIn: '1d' }
         );
 
         res.status(201).json({
@@ -115,7 +115,7 @@ export const login = async (req: Request, res: Response): Promise<void> => {
         const token = jwt.sign(
             { id: user.id, email: user.email, role: user.role },
             process.env.JWT_SECRET || 'secret',
-            { expiresIn: process.env.JWT_EXPIRES_IN || '1d' }
+            { expiresIn: '1d' }
         );
 
         res.status(200).json({

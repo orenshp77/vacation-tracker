@@ -59,7 +59,7 @@ INSERT INTO vacations (destination, description, start_date, end_date, price, im
 
 ('Corfu, Greece', 'Discover the emerald island of Corfu with its Venetian architecture, crystal-clear waters, and lush green landscapes. Explore the UNESCO-listed Old Town, relax on stunning beaches like Paleokastritsa, and indulge in delicious Greek cuisine. The perfect Mediterranean escape awaits you.', '2025-04-12', '2025-04-27', 689, 'corfu.jpg'),
 
-('Hilo, Hawaii', 'Experience the natural wonders of Hawaii''s Big Island in Hilo. Visit the spectacular Akaka Falls, explore Hawaii Volcanoes National Park, and discover the beautiful Rainbow Falls. Hilo offers a more authentic Hawaiian experience with its farmers markets, botanical gardens, and rich cultural heritage.', '2025-04-17', '2025-04-31', 1299, 'hilo.jpg'),
+('Hilo, Hawaii', 'Experience the natural wonders of Hawaii''s Big Island in Hilo. Visit the spectacular Akaka Falls, explore Hawaii Volcanoes National Park, and discover the beautiful Rainbow Falls. Hilo offers a more authentic Hawaiian experience with its farmers markets, botanical gardens, and rich cultural heritage.', '2025-04-17', '2025-04-30', 1299, 'hilo.jpg'),
 
 ('Montego Bay, Jamaica', 'Welcome to Montego Bay, Jamaica''s second-largest city and a paradise for beach lovers. Enjoy the famous Doctor''s Cave Beach, explore the historic Rose Hall Great House, and experience the vibrant nightlife. Don''t miss the chance to taste authentic Jamaican jerk cuisine and feel the reggae rhythm.', '2025-05-03', '2025-05-17', 875, 'montego.jpg'),
 
